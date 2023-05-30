@@ -255,9 +255,21 @@
  * Subset of devices that I have access to and have tested with
  */
 #  define DEVICES         \
-    DECL(lacrosse_tx141x) \
+    DECL(acurite_rain_896)           \
+    DECL(acurite_th)                 \
+    DECL(acurite_txr)                \
+    DECL(acurite_986)                \
+    DECL(acurite_606)                \
+    DECL(acurite_00275rm)            \
+    DECL(acurite_590tx)              \
+    DECL(acurite_01185m)             \
+    DECL(inkbird_ith20r)             \
+    DECL(nexus)                      \
+    DECL(oregon_scientific)          \
+    DECL(oregon_scientific_sl109h)   \
+    DECL(oregon_scientific_v1)       \
 /* Add new personal decoders here. */
-#  define NUMOF_OOK_DEVICES 1
+#  define NUMOF_OOK_DEVICES 13
 #  define NUMOF_FSK_DEVICES 0
 #endif
 
