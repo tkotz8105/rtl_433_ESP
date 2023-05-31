@@ -8,6 +8,9 @@
 #include "r_device.h"
 
 #ifndef MY_DEVICES
+#  define MY_DEVICES = true
+
+#ifndef MY_DEVICES
 #  define DEVICES                    \
     DECL(abmt)                       \
     DECL(acurite_rain_896)           \
