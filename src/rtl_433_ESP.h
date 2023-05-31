@@ -38,6 +38,15 @@
 #  define ICACHE_RAM_ATTR IRAM_ATTR
 #endif
 
+#ifndef MY_DEVICES
+#   define MY_DEVICES true
+
+#ifdef 	DEVICE_DEBUG
+#   define DEVICE_DEBUG true
+
+#ifndef RTL_DEBUG
+#   define RTL_DEBUG true
+
 // RadioLib Library setup
 
 #define RADIOLIB_LOW_LEVEL
